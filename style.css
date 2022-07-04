@@ -32,8 +32,7 @@ h3{
     color: white;
     font-weight: bold;
     border: 0 solid;
-    height: 35px;
-    width: 100px;
+    padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
 
@@ -44,6 +43,7 @@ h3{
 }
 section{
 display: flex;
+margin-bottom: 100px;
 }
 
 .half-width{
@@ -56,4 +56,9 @@ display: flex;
 .profile-image{
     
  
+}
+.dream-big{
+    background-image: url(/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
