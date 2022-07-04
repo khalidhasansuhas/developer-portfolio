@@ -11,7 +11,7 @@ h1{
 }
 
 h2{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 h3{
@@ -35,13 +35,14 @@ h3{
     padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
+    transition: 0.25s ease-in-out;
 
 }
 .hire-me:hover{
-    opacity: 0.7;
-    transition: 0.15s ease-in-out;
+    opacity: 0.5;
+    
 }
-section{
+.felxible-container{
 display: flex;
 margin-bottom: 100px;
 }
@@ -61,4 +62,31 @@ margin-bottom: 100px;
     background-image: url(/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.experience{
+    margin-left: 5%;
+ 
+}
+.ex{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+}
+
+.experience-field{
+    background-image: url(/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+#full{
+    border-left: 7px solid tomato;
+}
+#junior{
+    border-left: 7px solid blue;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 50px;
 }
