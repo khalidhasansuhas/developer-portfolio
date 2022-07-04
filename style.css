@@ -74,6 +74,15 @@ margin-bottom: 100px;
     box-shadow: 10px 10px 40px gray;
 }
 
+
+
+
+.experience-field{
+    background-image: url(/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
 #full{
     border-left: 7px solid tomato;
 }
@@ -84,10 +93,4 @@ margin-bottom: 100px;
 footer{
     text-align: center;
     padding-bottom: 50px;
-}
-
-.experience-field{
-    background-image: url(/exp-bg.png);
-    background-position: left;
-    background-repeat: no-repeat;
 }
